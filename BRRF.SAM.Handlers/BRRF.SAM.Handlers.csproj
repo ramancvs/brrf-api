@@ -44,16 +44,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommandHandler\PostSurveyApprovalCommandHandler.cs" />
+    <Compile Include="Command\SurveyCommand.cs" />
+    <Compile Include="Common\Extension\SurveyExtensions.cs" />
     <Compile Include="Query\BaseRequest.cs" />
     <Compile Include="HandlerBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueryHandler\GetSurveyHandler.cs" />
     <Compile Include="Query\GetSurvey.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="CommandHandler\" />
-    <Folder Include="Command\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\BRRF.Common\BRRF.Common.csproj">
       <Project>{b750e100-4bd8-4e26-aa1c-800dd832c22c}</Project>
